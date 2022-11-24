@@ -25,7 +25,7 @@
             <PasswordBox x:Name="psbPass" Style="{StaticResource PasswordBox}" PasswordChanged="psbPass_PasswordChanged" BorderBrush="Black"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="276,214,0,160"/>
-        <Button x:Name="btnBack" Content="Назад" Style="{StaticResource ButtonB}" Click="btnBack_Click" Background="#FF3BD3FF" RenderTransformOrigin="0.53,0.616" Margin="281,266,419,124"/>
+        <Button x:Name="btnBack" Content="Назад" Style="{StaticResource ButtonB}" Click="btnBack_Click" Background="#FF3BD3FF" RenderTransformOrigin="0.5,0.5" Margin="281,266,419,124"/>
         <Button x:Name="btnCreate" Content="Создать" Style="{StaticResource ButtonG}" IsEnabled="False" Click="btnCreate_Click"  VerticalAlignment="Bottom" Background="#FF2CD22C" Margin="400,0,300,124"/>
     </Grid>
 </Page>
